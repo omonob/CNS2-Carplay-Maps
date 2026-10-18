@@ -1,0 +1,16 @@
+.build/
+.local/
+validation/
+dist/
+*.ppk
+*.pem
+*.key
+*.dpapi
+*.log
+*.zip
+*.rar
+__pycache__/
+ssh_host_*_key
+id_rsa
+id_ed25519
+install-records/

@@ -1,0 +1,19 @@
+Port 2222
+Protocol 2
+ListenAddress 0.0.0.0
+HostKey /persistence/cns275/sshd/etc/ssh_host_rsa_key
+PidFile /persistence/cns275/sshd/run/sshd.pid
+UsePrivilegeSeparation no
+PermitRootLogin yes
+StrictModes no
+RSAAuthentication yes
+PubkeyAuthentication yes
+AuthorizedKeysFile /persistence/cns275/sshd/etc/authorized_keys
+PasswordAuthentication no
+PermitEmptyPasswords no
+ChallengeResponseAuthentication no
+X11Forwarding no
+AllowTcpForwarding no
+GatewayPorts no
+UseDNS no
+Subsystem sftp /persistence/cns275/sshd/usr/libexec/sftp-server
